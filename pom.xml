@@ -20,6 +20,7 @@
         <module>http-client-old-school</module>
         <module>http-client-java-11</module>
         <module>http-client-spring-rest-template</module>
+        <module>http-client-spring-webclient</module>
     </modules>
 
     <dependencies>
