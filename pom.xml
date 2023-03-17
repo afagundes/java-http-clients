@@ -2,6 +2,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.0.4</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
     <groupId>br.com.ari.httpclients</groupId>
     <artifactId>http-clients</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -21,6 +28,7 @@
         <module>http-client-java-11</module>
         <module>http-client-spring-rest-template</module>
         <module>http-client-spring-webclient</module>
+        <module>http-client-feign</module>
     </modules>
 
     <dependencies>
